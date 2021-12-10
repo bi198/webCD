@@ -1,0 +1,38 @@
+{
+  "name": "cdtnwebgitlab",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec babel-node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/bi198/chuyendewebtotnghiep_tdc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/bi198/chuyendewebtotnghiep_tdc/issues"
+  },
+  "homepage": "https://gitlab.com/bi198/chuyendewebtotnghiep_tdc#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/node": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.13"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mailgun-js": "^0.22.0",
+    "mongodb": "^4.1.4",
+    "mongoose": "^6.0.12",
+    "path": "^0.12.7"
+  }
+}
